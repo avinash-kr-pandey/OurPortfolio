@@ -15,14 +15,15 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  school,
+  college,
+  intern,
+  company,
+
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +43,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "JavaScript Enthusiast",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Performance Optimization",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "APIs Intigrations",
     icon: creator,
   },
 ];
@@ -89,7 +90,7 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: "Material UI ",
     icon: nodejs,
   },
   {
@@ -105,66 +106,71 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "TypeScripts",
+    icon: typescript,
   },
   {
-    name: "docker",
+    name: "Slak",
     icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Frontend  Developer",
+    company_name: "Katina Skills PVT LTD",
+    icon: company,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Feb 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Spearheading frontend development initiatives at Katina Skills PVT LTD, leveraging expertise in modern web technologies and frameworks.",
+      "Collaborating closely with cross-functional teams to translate design concepts into responsive and interactive user interfaces.",
+      "Ensuring adherence to industry best practices and standards while implementing frontend solutions to meet project requirements.",
+      "Continuously expanding skill set and staying updated with latest frontend development trends and technologies to drive innovation and excellence in project deliverables.",
     ],
   },
+ 
+ 
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Internship",
+    company_name: "Hoping Minds",
+    icon: intern,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2022 - Oct 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Actively engaging in learning and practical application of MERN stack technologies during the internship tenure.",
+      "Contributing to the development of various small-scale projects, honing skills in full-stack development.",
+      "Demonstrating adaptability and problem-solving abilities while tackling challenges encountered during project work.",
+      "Participating in mentorship sessions and seeking guidance from experienced professionals to accelerate learning and professional growth.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Bachelor of Computer Applications(BCA)",
+    company_name: "National Business College, Patna",
+    icon: college,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "April 2018 - December 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designing a user-friendly interface for students to submit feedback on various aspects of their college experience.",
+      "Implementing secure authentication and authorization mechanisms to ensure only authorized users can access and submit feedback.",
+      "Developing a database schema to store feedback data efficiently and securely.",
+      "Utilizing Java frameworks and libraries to streamline the development process and enhance system functionality.",
+      "Conducting thorough testing to identify and resolve any bugs or issues before deploying the feedback system for use by students and faculty.",
+    ],
+  },
+  
+  {
+    title: "Intermediate",
+    company_name: "A.V.P Patna",
+    icon: school,
+    iconBg: "#383E56",
+    date: "March 2016 - April 2018",
+    points: [
+      "Requesting specific feedback on assignments or exams to understand areas of strength and weakness.",
+      "Actively listening during feedback sessions to grasp suggestions for improvement.",
+      "Taking notes during feedback discussions to reference later for self-improvement.",
+      "Setting measurable goals based on received feedback to track progress over time.",
+      
     ],
   },
 ];
@@ -198,16 +204,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "HopingMinds Courses",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "HopingMinds Courses is a dynamic learning and sales platform where users can access and purchase a variety of courses. As a frontend developer on this project, I leverage React, JavaScript, Tailwind CSS, and API integration to create a seamless and engaging user experience. My focus is on combining these technologies to enhance usability and functionality across the platform.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
@@ -216,49 +222,58 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.hopingminds.com",
   },
   {
-    name: "Job IT",
+    name: "Chartered Accountant",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "In the Chartered Accountant project, I apply the frontend technologies—React, JavaScript, Only CSS For designing, and API integration—to implement comprehensive features related to Chartered Accountant services. This includes designing and developing functionalities that cater specifically to the needs of Chartered Accountants and their clients, ensuring a user-friendly and efficient interface.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CSS",
         color: "pink-text-gradient",
       },
+      {
+        name: "API Integration",
+        color: "green-text-gradient",
+      },
+     
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/avinash-kr-pandey",
   },
   {
-    name: "Trip Guide",
+    name: "Groceryfy Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The Groceryfy Website project has been successfully completed. This client-focused initiative involved comprehensive frontend development using technologies like React, JavaScript, Tailwind CSS, and API integrations. The project aimed to create a seamless, user-friendly, and efficient online shopping experience for groceries, ensuring intuitive navigation and robust, reliable functionality for users.",
     tags: [
       {
-        name: "nextjs",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "JavaScripts",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind",
         color: "pink-text-gradient",
+      },
+      {
+        name: "APIs",
+        color: "blue-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://grocerify-frontend.vercel.app/",
   },
 ];
 
